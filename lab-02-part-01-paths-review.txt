@@ -14,42 +14,42 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+cd
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+cd ~
 
 ==========
 3. Write the command that you would use to change to your Desktop folder.
 ----------
 
-
+cd ~/desktop
 
 ==========
 4. What's the absolute path to your home directory?
 ----------
 
-
+/c/Users/imart
 
 ==========
 5. What's the absolute path to your Desktop directory?
 ----------
 
-
+/c/users/imart/desktop
 
 ==========
 6. What's the absolute path to your Desktop directory?
 ----------
 
-
+/c/users/imart/desktop
 
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
 ----------
-
+cd desktop
 
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
@@ -60,7 +60,7 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
 ----------
-
+mkdir
 
 
 ==========
@@ -88,7 +88,7 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
-
+dir
 ==========
 Optional Challenge:
 
