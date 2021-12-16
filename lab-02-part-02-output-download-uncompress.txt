@@ -157,7 +157,7 @@ curl -o filename.txt https://entertainmenttechnology.github.io/Viera-MTEC1003-fa
 Write down the command that you used to uncompress the file.
 ----------
 
-
+I think it's unzip filename
 
 ==========
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
@@ -165,7 +165,7 @@ Write down the command that you used to uncompress the file.
 Copy and paste the output below.
 ----------
 
-
+cd mtec1003-lab-02
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
@@ -224,7 +224,7 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+hello.txt
 
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
@@ -246,7 +246,8 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
-stuff.tar
+stuff/
+stuff/hello.txt
 
 ==========
 20. List the files in the directory you're currently in (which should be home).  
@@ -345,51 +346,18 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-'3D Objects'/
- AppData/
-'Application Data'@
- Contacts/
- Cookies@
- Documents/
- Downloads/
- Favorites/
- filename.txt
- hello.txt
- Intel/
- IntelGraphicsProfiles/
- Links/
-'Local Settings'@
- mtec1003-lab-02
- Music/
-'My Documents'@
- NetHood@
- NTUSER.DAT
- ntuser.dat.LOG1
- ntuser.dat.LOG2
- NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
- NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
- NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
- ntuser.ini
- OneDrive/
- PrintHood@
- Recent@
-'Saved Games'/
- Searches/
- SendTo@
-'Start Menu'@
- stuff/
- Templates@
- Videos/
+
+books/  logs/  stuff.tar.gz  web/
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
 
-$ tar -xvf stuff.tar.gz
+$ tar -xvf stuff.tar.gz 
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
 
-
+books/  logs/  stuff/  stuff.tar.gz  web/
 
 ==========
 24. Go back to your home directory
